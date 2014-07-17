@@ -1,0 +1,2 @@
+debian/bin/Architectcoind usr/bin
+src/Architectcoind usr/lib/Architectcoin

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Architectcoin
+Comment=Architectcoin P2P Cryptocurrency
+Comment[fr]=Architectcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Architectcoin, eşten eşe kriptografik sanal para birimi
+Comment[es]=Architectcoin, una criptomoneda P2P
+Exec=/usr/bin/Architectcoin-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/Architectcoin;
+Categories=Office;

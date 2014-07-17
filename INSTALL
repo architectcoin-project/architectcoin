@@ -1,0 +1,9 @@
+Building Architectcoin
+
+See doc/readme-qt.rst for instructions on building Architectcoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Architectcoin.
+
+See doc/build-*.txt for instructions on building Architectcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Architectcoin.

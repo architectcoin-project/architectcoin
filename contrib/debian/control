@@ -1,0 +1,58 @@
+Source: Architectcoin
+Section: utils
+Priority: optional
+Maintainer: Irving A. Bermúdez S. <bigchirv@gmail.com>
+Build-Depends: debhelper,
+ devscripts,
+ bash-completion,
+ libboost-system-dev (>> 1.35) | libboost-system1.35-dev,
+ libdb4.8++-dev,
+ libssl-dev,
+ pkg-config,
+ libminiupnpc8-dev,
+ libboost-filesystem-dev (>> 1.35) | libboost-filesystem1.35-dev,
+ libboost-program-options-dev (>> 1.35) | libboost-program-options1.35-dev,
+ libboost-thread-dev (>> 1.35) | libboost-thread1.35-dev,
+ libboost-test-dev (>> 1.35) | libboost-test1.35-dev,
+ qt4-qmake,
+ libqt4-dev,
+ libqrencode-dev
+Standards-Version: 3.9.2
+Homepage: http://Architectcoin.cc/
+Vcs-Git: git://github.com/Architectcoinproject/Architectcoin.git
+Vcs-Browser: http://github.com/Architectcoinproject/Architectcoin
+
+Package: Architectcoind
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - daemon
+ Architectcoin is a free open source peer-to-peer electronic cash system that
+ is completely decentralized, without the need for a central server or
+ trusted parties.  Users hold the crypto keys to their own money and
+ transact directly with each other, with the help of a P2P network to
+ check for double-spending.
+ .
+ By default connects to an IRC network to discover other peers.
+ .
+ Full transaction history is stored locally at each client.  This
+ requires 2+ GB of space, slowly growing.
+ .
+ This package provides Architectcoind, a combined daemon and CLI tool to
+ interact with the daemon.
+
+Package: Architectcoin-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - Qt GUI
+ Architectcoin is a free open source peer-to-peer electronic cash system that
+ is completely decentralized, without the need for a central server or
+ trusted parties.  Users hold the crypto keys to their own money and
+ transact directly with each other, with the help of a P2P network to
+ check for double-spending.
+ .
+ By default connects to an IRC network to discover other peers.
+ .
+ Full transaction history is stored locally at each client.  This
+ requires 2+ GB of space, slowly growing.
+ .
+ This package provides Architectcoin-Qt, a GUI for Architectcoin based on Qt.
